@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   mapproj_1.2-0.tar.gz: 64a3a6c3fb60d1a77aaddd64b472e430da27834e
+sources:
+  mapproj_1.2-1.tar.gz: f3435af425d0ce9f09bfb168d0b8038d3099c18a

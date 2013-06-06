@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.0
+Version:          1.2.1
 Release:          1
 Summary:          Map Projections
 Group:            Sciences/Mathematics
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/mapproj_1.2-0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mapproj_1.2-1.tar.gz
 Requires:         R-maps 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-maps
 
@@ -40,3 +40,13 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1_8.3-1
++ Revision: 776340
+- Import R-mapproj
+- Import R-mapproj
+
+
+
