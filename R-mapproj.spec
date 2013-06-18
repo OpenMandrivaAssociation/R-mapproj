@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.1
-Release:          1
+Release:          2
 Summary:          Map Projections
 Group:            Sciences/Mathematics
 License:          file LICENSE
