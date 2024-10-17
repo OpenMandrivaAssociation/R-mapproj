@@ -7,7 +7,7 @@ Release:          2
 Summary:          Map Projections
 Group:            Sciences/Mathematics
 License:          file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/mapproj_1.2-1.tar.gz
 Requires:         R-maps 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-maps
